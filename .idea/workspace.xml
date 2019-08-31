@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/company/models.py" description="class Company(models.Model):&#10;" line="6" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e3294a8-213d-42f8-b4b6-d2cca571184f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/address/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/address/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/address/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/address/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/address/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/address/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/address/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/address/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/address/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/approver/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/approver/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/approver/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/approver/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/approver/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/approver/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/approver/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/approver/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/approverTeam/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/approverTeam/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/approverTeam/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/approverTeam/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/approverTeam/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/approverTeam/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/category/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/category/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/category/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientType/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientType/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientType/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientType/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientType/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientType/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/country/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/country/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/country/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/country/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/country/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/country/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/currency/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/currency/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/currency/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/department/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/department/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/department/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/department/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departmentResponsible/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/departmentResponsible/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departmentResponsible/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/departmentResponsible/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/departmentResponsible/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/departmentResponsible/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employee/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/employee/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchangeRate/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/exchangeRate/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchangeRate/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/exchangeRate/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchangeRate/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/exchangeRate/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/expense/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/expense/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/expense/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expense/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/expense/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReport/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/expenseReport/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReport/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/expenseReport/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReport/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/expenseReport/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReport/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/expenseReport/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReportStatus/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReportStatus/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReportStatus/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReportStatus/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReportStatus/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReportStatus/serializers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReportStatus/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReportStatus/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseReportStatus/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseStatus/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/expenseStatus/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseStatus/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/expenseStatus/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseStatus/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/expenseStatus/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expenseStatus/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/expenseStatus/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requester/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/requester/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requester/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/requester/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requester/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/requester/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requesterTeam/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/requesterTeam/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requesterTeam/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/requesterTeam/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requesterTeam/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/requesterTeam/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rule/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/rule/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rule/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceTeam/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceTeam/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceTeam/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceTeam/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceTeam/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceTeam/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceType/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceType/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceType/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceType/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sourceType/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sourceType/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/team/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/team/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/team/views.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Address</find>
+      <find>id</find>
+      <find>image</find>
+      <find>request</find>
+      <find>files</find>
+      <find>file</find>
+      <find>data</find>
+      <find>multipart/form_data</find>
+      <find>DepartmentSerializer(data</find>
+      <find>a</find>
+      <find>SIZE</find>
+      <find>ERROR_NAME</find>
+      <find>raise</find>
+      <find>REST_FRAMEWORK</find>
+      <find>api</find>
+      <find>AllowAny</find>
+      <find>Ca</find>
+      <find>AUTH_USER_MODEL</find>
+      <find>objects</find>
+      <find>pbkdf2_sha256$150000$AV4XSGCdoyNA$PEuWk53VBczU5e/m0247z+loJAVvSV5q8yEcOcx/Sds=</find>
+      <find>count</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/employee/urls.py" />
+        <option value="$PROJECT_DIR$/approver/urls.py" />
+        <option value="$PROJECT_DIR$/approver/serializers.py" />
+        <option value="$PROJECT_DIR$/expenseStatus/urls.py" />
+        <option value="$PROJECT_DIR$/expenseStatus/serializers.py" />
+        <option value="$PROJECT_DIR$/expenseStatus/models.py" />
+        <option value="$PROJECT_DIR$/myproject/settings.py" />
+        <option value="$PROJECT_DIR$/myproject/urls.py" />
+        <option value="$PROJECT_DIR$/expense/models.py" />
+        <option value="$PROJECT_DIR$/expense/serializers.py" />
+        <option value="$PROJECT_DIR$/rule/models.py" />
+        <option value="$PROJECT_DIR$/source/serializers.py" />
+        <option value="$PROJECT_DIR$/source/models.py" />
+        <option value="$PROJECT_DIR$/sourceTeam/models.py" />
+        <option value="$PROJECT_DIR$/approverTeam/models.py" />
+        <option value="$PROJECT_DIR$/expenseReport/urls.py" />
+        <option value="$PROJECT_DIR$/expense/urls.py" />
+        <option value="$PROJECT_DIR$/company/urls.py" />
+        <option value="$PROJECT_DIR$/client/urls.py" />
+        <option value="$PROJECT_DIR$/approver/models.py" />
+        <option value="$PROJECT_DIR$/departmentResponsible/models.py" />
+        <option value="$PROJECT_DIR$/employee/models.py" />
+        <option value="$PROJECT_DIR$/requester/models.py" />
+        <option value="$PROJECT_DIR$/expenseReport/models.py" />
+        <option value="$PROJECT_DIR$/requesterTeam/models.py" />
+        <option value="$PROJECT_DIR$/sourceTeam/serializers.py" />
+        <option value="$PROJECT_DIR$/expenseReport/serializers.py" />
+        <option value="$PROJECT_DIR$/employee/serializers.py" />
+        <option value="$PROJECT_DIR$/api/views.py" />
+        <option value="$PROJECT_DIR$/approver/views.py" />
+        <option value="$PROJECT_DIR$/approverTeam/views.py" />
+        <option value="$PROJECT_DIR$/category/views.py" />
+        <option value="$PROJECT_DIR$/client/views.py" />
+        <option value="$PROJECT_DIR$/clientType/views.py" />
+        <option value="$PROJECT_DIR$/company/views.py" />
+        <option value="$PROJECT_DIR$/country/views.py" />
+        <option value="$PROJECT_DIR$/currency/views.py" />
+        <option value="$PROJECT_DIR$/department/views.py" />
+        <option value="$PROJECT_DIR$/departmentResponsible/views.py" />
+        <option value="$PROJECT_DIR$/employee/views.py" />
+        <option value="$PROJECT_DIR$/exchangeRate/views.py" />
+        <option value="$PROJECT_DIR$/expense/views.py" />
+        <option value="$PROJECT_DIR$/expenseReport/views.py" />
+        <option value="$PROJECT_DIR$/expenseStatus/views.py" />
+        <option value="$PROJECT_DIR$/requester/views.py" />
+        <option value="$PROJECT_DIR$/requesterTeam/views.py" />
+        <option value="$PROJECT_DIR$/rule/views.py" />
+        <option value="$PROJECT_DIR$/source/views.py" />
+        <option value="$PROJECT_DIR$/sourceTeam/views.py" />
+        <option value="$PROJECT_DIR$/sourceType/views.py" />
+        <option value="$PROJECT_DIR$/team/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="205" />
+    <option name="y" value="-18" />
+    <option name="width" value="1284" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="backend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\turki\backend" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="backend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\turki\backend" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="address" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="backend" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\turki\backend" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="myproject" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\turki\myproject\expenseStatus" />
+      <recent name="C:\Users\turki\myproject\expenseReportStatus" />
+      <recent name="C:\Users\turki\myproject\expense" />
+      <recent name="C:\Users\turki\myproject\rule" />
+      <recent name="C:\Users\turki\myproject\currency" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\turki\backend\api" />
+      <recent name="C:\Users\turki\myproject" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.myproject">
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/myproject/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myproject/api/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myproject" type="Python.DjangoServer" factoryName="Django server">
+      <module name="myproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="myproject.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.urls" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e3294a8-213d-42f8-b4b6-d2cca571184f" name="Default Changelist" comment="" />
+      <created>1557917865297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557917865297</updated>
+      <workItem from="1557917872153" duration="2987000" />
+      <workItem from="1557927249674" duration="651000" />
+      <workItem from="1557999241207" duration="246000" />
+      <workItem from="1557999509613" duration="503000" />
+      <workItem from="1558000030693" duration="678000" />
+      <workItem from="1558000826691" duration="854000" />
+      <workItem from="1558002214242" duration="209000" />
+      <workItem from="1558179874266" duration="655000" />
+      <workItem from="1558184879344" duration="1421000" />
+      <workItem from="1558350367987" duration="1680000" />
+      <workItem from="1558361727862" duration="1631000" />
+      <workItem from="1558429812246" duration="8177000" />
+      <workItem from="1558625894408" duration="105000" />
+      <workItem from="1558686086558" duration="7265000" />
+      <workItem from="1558945347477" duration="8892000" />
+      <workItem from="1559032587103" duration="3848000" />
+      <workItem from="1560159355928" duration="816000" />
+      <workItem from="1560260087861" duration="3767000" />
+      <workItem from="1560421425822" duration="522000" />
+      <workItem from="1560437896742" duration="2011000" />
+      <workItem from="1560511921589" duration="148000" />
+      <workItem from="1560940610805" duration="12690000" />
+      <workItem from="1561380447815" duration="208000" />
+      <workItem from="1563353608305" duration="2944000" />
+      <workItem from="1563439235446" duration="8968000" />
+      <workItem from="1563463845716" duration="324000" />
+      <workItem from="1563525112387" duration="5525000" />
+      <workItem from="1563531087277" duration="5591000" />
+      <workItem from="1564390159096" duration="16604000" />
+      <workItem from="1564475906959" duration="7619000" />
+      <workItem from="1565256270497" duration="10080000" />
+      <workItem from="1565342814928" duration="7993000" />
+      <workItem from="1565686863749" duration="11642000" />
+      <workItem from="1565965649067" duration="395000" />
+      <workItem from="1566032021008" duration="500000" />
+      <workItem from="1566037748983" duration="4489000" />
+      <workItem from="1566044523953" duration="155000" />
+      <workItem from="1566044888939" duration="1973000" />
+      <workItem from="1566054453546" duration="31215000" />
+      <workItem from="1566121413225" duration="3705000" />
+      <workItem from="1566143929865" duration="16873000" />
+      <workItem from="1566207792600" duration="16695000" />
+      <workItem from="1566239307285" duration="17598000" />
+      <workItem from="1566289528583" duration="12171000" />
+      <workItem from="1566330801990" duration="6137000" />
+      <workItem from="1566376496891" duration="11031000" />
+      <workItem from="1566411501913" duration="6899000" />
+      <workItem from="1566462309598" duration="19961000" />
+      <workItem from="1566499210274" duration="16206000" />
+      <workItem from="1566548193342" duration="21919000" />
+      <workItem from="1566594226460" duration="6794000" />
+      <workItem from="1566639187478" duration="34169000" />
+      <workItem from="1566725799152" duration="1158000" />
+      <workItem from="1566757332289" duration="4318000" />
+      <workItem from="1566809086788" duration="16000000" />
+      <workItem from="1566839757921" duration="19537000" />
+      <workItem from="1566895608292" duration="15683000" />
+      <workItem from="1566927672114" duration="12065000" />
+      <workItem from="1566981985749" duration="13491000" />
+      <workItem from="1567025519312" duration="5222000" />
+      <workItem from="1567066305118" duration="98000" />
+      <workItem from="1567070384075" duration="2983000" />
+      <workItem from="1567075349708" duration="12097000" />
+      <workItem from="1567099622086" duration="17738000" />
+      <workItem from="1567145321750" duration="4514000" />
+      <workItem from="1567154427116" duration="15913000" />
+      <workItem from="1567182910791" duration="10464000" />
+      <workItem from="1567235716082" duration="27514000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1566080519447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566080519447</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1566081118744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566081118744</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="545539000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27567238" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49205378" weight="0.27659574" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44353518" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32733223" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3281075" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5079462" side_tool="true" weight="0.27659574" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.38521835" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49205378" weight="0.27659574" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/myproject$urls.coverage" NAME="urls Coverage Results" MODIFIED="1558953382813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myproject/api" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/expenseStatus/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourceType/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/approver/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/approverTeam/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expense/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requester/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/departmentResponsible/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/approver/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requesterTeam/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expenseStatus/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expenseStatus/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requesterTeam/migrations/0003_auto_20190831_1732.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requesterTeam/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourceTeam/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/country/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourceTeam/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expenseReport/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="115" selection-start-line="14" selection-start-column="115" selection-end-line="14" selection-end-column="115" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expenseReport/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="82" column="18" lean-forward="true" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/approver/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/approverTeam/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientType/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/country/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/currency/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/department/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/departmentResponsible/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/employee/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="87" column="16" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exchangeRate/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expense/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2003">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expenseReport/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expenseReport/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" selection-start-line="19" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/expenseStatus/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requester/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="61" column="16" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requesterTeam/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rule/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourceTeam/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sourceType/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/team/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
