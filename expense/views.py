@@ -62,9 +62,9 @@ def expense_list(request):
             return JsonResponse(expense_serializer.data, status=status.HTTP_201_CREATED)
         return JsonResponse(expense_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-    elif request.method == 'DELETE':
-        Expense.objects.all().delete()
-        return HttpResponse(status=status.HTTP_204_NO_CONTENT)
+    # elif request.method == 'DELETE':
+    #     Expense.objects.all().delete()
+    #     return HttpResponse(status=status.HTTP_204_NO_CONTENT)
 
 
 @parser_classes([FormParser, MultiPartParser])
@@ -85,6 +85,10 @@ def expense_detail(request, pk):
     elif request.method == 'PUT':
         request.method = "POST"
         draft = request.POST.get('draft')
+        expense_ = Expense.objects.filter(id=request.POST.get('id'))
+        status = expense_[0].status
+        if status:
+            return HttpResponse('Already decided !')
         try:
             draft_data = (int(draft))
         except:
@@ -116,6 +120,8 @@ def expense_detail(request, pk):
         return JsonResponse(expense_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
     elif request.method == 'DELETE':
+        if expense.status:
+            return HttpResponse('Already decided !')
         expense.delete()
         return HttpResponse(status=status.HTTP_204_NO_CONTENT)
 
